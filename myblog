@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+	<title>我的博客</title>
+	<link rel="stylesheet" type="text/css" href="blogstyle.css">
+</head>
+<body>
+    <div id="container">
+        <!--页面的banner和导航-->
+    	<div id="globallink">
+    		<ul>
+    			<li><a href="#">个人首页</a></li>
+    			<li><a href="#">控制面板</a></li>
+    			<li><a href="#">我的文章</a></li>
+    			<li><a href="#">我的相册</a></li>
+    			<li><a href="#">我的圈子</a></li>
+    			<li><a href="#">给我留言</a></li>
+    		</ul>
+    	</div>
+    	<!--作者图片、各种导航、文章分类、最新文章列表、最新评论和友情连接-->
+    	<div id="parameter">
+    		<div id="author">
+    			<p id="mypic"><img src="mypic.jpg" width=190px></p>
+    			<p>王锐的BLOG</p>
+    		</div>
+    		<div id="llinks">
+    		    <h4 class="recommend"><span>活力推荐</span></h4>
+    			<ul>
+    				<li><a href="#">个人主页</a></li>
+    				<li><a href="#">控制面板</a></li>
+    				<li><a href="#">我的文章</a></li>
+    				<li><a href="#">我的相册</a></li>
+    				<li><a href="#">我的圈子</a></li>
+    				<li><a href="#">给我留言</a></li>
+    			</ul>
+    		</div>
+    		<div id="lcategory"></div>
+    		<div id="llatest"></div>
+    		<div id="lcomment">
+    			<h4 class="comment"><span>最新评论</span></h4>
+    			<ul>
+    				<li><a href="#">[isaac]关于beep的话题</a></li>
+    				<li><a href="#">[tastestory]哈哈</a></li>
+    				<li><a href="#">[moonbow]还是露天，真的吗？</a></li>
+    				<li><a href="#">[isaac]zan:)</a></li>
+    				<li><a href="#">[bingri]来总导这里挖坑</a></li>
+    				<li><a href="#">[inming]博士加油</a></li>
+    			</ul>
+    			<br>
+    		</div>
+    		<div id="lfriend"></div>
+    	</div>
+    	<!--最新文章的截取，包括文章标题、部分正文等-->
+    	<div id="main">
+    		<div id="article">
+    			<h3><a href="#">学生节 十届电子人</a></h3>
+    			<p class="author">issac @ 2016-11-14 20:34</p>
+    			<p class="content">今天三审，偶然接电话反抗军似懂非懂赛季翻江倒海肯定是你，冯绍峰释迦佛哈哈附近，人机环境副书记导航，肺结核客户反馈……</p>
+    			<p class="content">7字班：qiangwei<br>
+    			8字班：ss、linear……<br>
+    			9字班：vjfjjdk、shudijo……<br>
+    			0字班：dshdh、hdhlj……<br>
+    			1字班：fdsdguy、gdsh……<br>
+    			2字班：cdd、djhs……<br>
+    			3字班：主席、shsh……<br>
+    			4字班：hsgd、dshhdhie……<br>
+    			5字班：文艺部、dhsj……<br>
+    			6字班：shfh</p>
+    			<p class="content">目前，较好的柯斯达赛季豪华车阜阳市是否粉红色杜甫。</p>
+    			<p class="show">浏览[1073]|评论[4]</p>
+    		</div>
+    		<div id="article"></div>
+    		<div id="article"></div>
+    	</div>
+    	<!--版权、更新信息等-->
+    	<div id="footer">
+    		<p>更新时间：2017-11-14 20:34 &copy;All Rights Reserved</p>
+    	</div>
+    </div>
+</body>
+</html>
